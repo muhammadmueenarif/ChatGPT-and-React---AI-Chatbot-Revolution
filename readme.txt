@@ -57,3 +57,6 @@ Now remove some code. app.css. ap.test.js used for testing. logo and report web 
 also remove. remove code in app.js. don't delete app.js file. 
 also remove where these all things were impoted otherwise error. we can go in package.json and find how many npm 
 package dependencies we installed. 
+
+Create UI
+install tailwind css intellisense extension. 

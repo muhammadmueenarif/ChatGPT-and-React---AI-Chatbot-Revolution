@@ -1,7 +1,10 @@
 import React from 'react'
+import Chat from './Chat'
 const App = ()=>  {
   return (
-   <div>App</div> 
+   <div>
+    <Chat/>
+   </div> 
   )
 }
 
