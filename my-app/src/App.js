@@ -1,8 +1,8 @@
-
-function App() {
+import React from 'react'
+const App = ()=>  {
   return (
-   <>Hy</>
-  );
+   <div>App</div> 
+  )
 }
 
 export default App;

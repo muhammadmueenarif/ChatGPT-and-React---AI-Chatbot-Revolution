@@ -55,4 +55,5 @@ then copy indes.css code and paste in src/index.css.
 
 Now remove some code. app.css. ap.test.js used for testing. logo and report web vitals file. setuptest.js 
 also remove. remove code in app.js. don't delete app.js file. 
-also remove where these all things were impoted otherwise error. 
+also remove where these all things were impoted otherwise error. we can go in package.json and find how many npm 
+package dependencies we installed. 
