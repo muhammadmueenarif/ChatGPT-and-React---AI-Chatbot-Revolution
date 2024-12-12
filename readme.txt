@@ -22,3 +22,12 @@ You have some frontend and backend knowledge. Having some prior information will
 we will cover. 
 
 there are various chatbot like chatgpt gemini bard midjourney dall e. 
+
+How to use Chatgpt? 
+chatgpt website open. just give prompt and ask questions. select the free or paid plan. 
+
+midjourney. 
+open its website, download and install and run. create account on website. 
+
+give detailed prompt for better results. chatgpt Understand and remember the previous responses and give 
+results according to it. 
