@@ -60,3 +60,4 @@ package dependencies we installed.
 
 Create UI
 install tailwind css intellisense extension. 
+tabler-icons.io website to use icons in our website. search the icon you want to use and then copy it svg. 
