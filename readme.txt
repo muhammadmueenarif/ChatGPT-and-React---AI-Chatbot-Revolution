@@ -31,3 +31,28 @@ open its website, download and install and run. create account on website.
 
 give detailed prompt for better results. chatgpt Understand and remember the previous responses and give 
 results according to it. 
+
+
+Building Chatgpt in React. 
+we used tailwind and react in frontend which is in my app folder and backend is in server.js file. 
+we will build same like chatgpt that will be saving our data in the left side chat menu but if we refresh it, 
+it will be deleted because we have not added database so data is not being saved. 
+
+React installation 
+npx create-react-app my-app for starting react app. npm start to start the react app. tailwind will be used in it.
+we can install tailwind by cli, cdn or framework. 
+i do not want to use other options so i will click on framework guide option in the documentation of tailwind 
+installation. then select react app option. angular vite and other options are also available. 
+tailwindcss.com/docs/installation
+create folder and open it in vs code. 
+then open terminal. copy commands from tailwind website and paste in folder. 
+install it according to documentation guide. 
+npm install -D tailwindcss
+npx tailwindcss init. if we do not use this command init then we cannot use tailwind. 
+
+next in tailwind config file. tailwind.config.js file and paste content there. 
+then copy indes.css code and paste in src/index.css. 
+
+Now remove some code. app.css. ap.test.js used for testing. logo and report web vitals file. setuptest.js 
+also remove. remove code in app.js. don't delete app.js file. 
+also remove where these all things were impoted otherwise error. 
