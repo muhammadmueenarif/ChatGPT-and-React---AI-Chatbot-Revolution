@@ -81,15 +81,15 @@ const Chat = () => {
 
 
       </div>
-
+        
+        {/* main chat box */}
       <div className="w-[80%]">
 
         <div className=" h-[80%] border flex flex-col justify-center items-center text-white">
           <div className="text-4xl font-bold">ChatGPT</div>
 
           <div>
-            {
-              example.map((item,index)=> {
+            { example.map((item,index)=> {
                 return (
                   <div> {item} </div>
                 )
