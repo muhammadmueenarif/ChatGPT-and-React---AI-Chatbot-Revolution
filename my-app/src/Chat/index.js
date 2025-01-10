@@ -5,9 +5,9 @@ const Chat = () => {
     "How to integrate api in chatgpt", "What is OpenAI"];
   return (
     // chat screen
-    <div className="h-screen w-screen flex bg-[gray]">
+    <div className="h-screen w-screen flex bg-[white]">
       {/* sidebar */}
-      <div className="w-[20%] h-screen bg-[black] text-white p-4">
+      <div className="w-[20%] h-screen bg-[#202123] text-white p-4">
         
         {/* chat button  */}
         <div className="h-[5%]">
@@ -85,20 +85,28 @@ const Chat = () => {
         {/* main chat box */}
       <div className="w-[80%]">
 
-        <div className=" h-[80%] border flex flex-col justify-center items-center text-white">
+        <div className=" h-[80%] border flex flex-col justify-center items-center text-black">
           <div className="text-4xl font-bold">ChatGPT</div>
 
-          <div>
+          <div className="flex flex-wrap justify-around max-w-[900px]">
             { example.map((item,index)=> {
                 return (
-                  <div> {item} </div>
+                  <div className="text-lg font-light p-4 border border-black rounded min-w-[400px] mt
+                   hover:bg-slate-300"> 
+                  {item} </div>
                 )
               })
             }
           </div>
         </div>
         
-        <div></div>
+        {/* chatgpt prompt input */}
+        <div className="h-[20%]">
+          <div className="flex flex-col items-center justify-center h-full w-full">
+            <input type="text" className="w-[60%] rounded text-black p-4 bg-gray-300" placeholder="Enter prompt here"/>
+            <small className="text-black mt-2">AI can generate anything</small>
+          </div>
+        </div>
       </div>
 
     </div>
