@@ -68,3 +68,4 @@ if installed then npm init -y for package.json file and npm i cors express nodem
 install env also. 
 
 goto platform.openai.com/account/billing/overview for your api key. 
+install env also. 
