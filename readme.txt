@@ -61,3 +61,7 @@ package dependencies we installed.
 Create UI
 install tailwind css intellisense extension. 
 tabler-icons.io website to use icons in our website. search the icon you want to use and then copy it svg. 
+
+
+after finishing the frontend, create server folder for backend check node -v for node is installed or not. 
+if installed then npm init -y for package.json file and npm i cors express nodemon to install these dependencies.
